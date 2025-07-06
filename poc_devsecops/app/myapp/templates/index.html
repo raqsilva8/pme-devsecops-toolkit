@@ -1,0 +1,37 @@
+{% extends 'myapp/base.html' %}
+
+{% block content %}
+    {% if title == 'Home' %}
+        <h2>Welcome to My Django App</h2>
+        <p>This is a simple Django application with Docker and GitHub Actions integration.</p>
+    {% elif title == 'Items' %}
+        <h2>Items List</h2>
+        {% if items %}
+            <ul class="items-list">
+                {% for item in items %}
+                    <li>
+                        <h3>{{ item.name }}</h3>
+                        <p>{{ item.description }}</p>
+                        <small>Created: {{ item.created_at }}</small>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No items available.</p>
+        {% endif %}
+    {% elif title == 'Create Item' %}
+        <h2>Create New Item</h2>
+        <form method="post" action="{% url 'item_create' %}">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" required></textarea>
+            </div>
+            <button type="submit">Create Item</button>
+        </form>
+    {% endif %}
+{% endblock %}

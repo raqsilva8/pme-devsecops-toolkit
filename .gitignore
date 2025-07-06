@@ -1,0 +1,9 @@
+.idea
+.DS_Store
+poc_devsecops/.terraform
+poc_devsecops/local
+poc_devsecops/terraform/terraform.tfvars
+poc_devsecops/terraform/.terraform/
+poc_devsecops/terraform/terraform.tfstate
+poc_devsecops/terraform/terraform.tfstate.backup
+poc_devsecops/terraform/.terraform.lock.hcl
