@@ -9,14 +9,15 @@ Este repositório descreve como implementar DevSecOps em pequenas e médias empr
 README.md
 KPIs/                    # Informação sobre KPIs/PKIs
 Material_Treinamento/
-  DesenvolvimentoSeguro_tecnico.pptx  # Material de formação em desenvolvimento seguro (técnico)
+  DesenvolvimentoSeguro_tecnico.pptx   # Material de formação em desenvolvimento seguro (técnico)
   DevSecOps_tecnico.pptx               # Material de formação em DevSecOps (técnico)
+  Material_nao_tecnico.pdf             # Material expositivo para a gestão de topo das PME - a nossa proposta de DevSecOps e Cibersegurança
   README.md                            # Informação sobre os materiais de formação
 poc_devsecops/           # PoC DevSecOps
   README.md              # Informação sobre a PoC
   .github/               # Configuração do GitHub Actions para CI/CD
     workflows/
-      ci.yml             # Workflow de Integração Contínua (CI)
+      main.yml           # Workflow de Integração Contínua (CI)
 terraform/               # PoC terraform
 ```
 
