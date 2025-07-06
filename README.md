@@ -13,6 +13,8 @@ Material_de_Treino/
   DevSecOps_tecnico.pptx               # Material de formação em DevSecOps (técnico)
   Material_nao_tecnico.pdf             # Material expositivo para a gestão de topo das PME - a nossa proposta de DevSecOps e Cibersegurança
   README.md                            # Informação sobre os materiais de formação
+Normas_e_Standards/
+  Compliance e CICD.xlsx               # Mapeamento de Normas - Pontos Importantes e Relevantes para CI/CD
 poc_devsecops/           # PoC DevSecOps
   README.md              # Informação sobre a PoC
   .github/               # Configuração do GitHub Actions para CI/CD
