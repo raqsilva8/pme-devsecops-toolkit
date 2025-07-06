@@ -27,6 +27,7 @@ terraform/               # PoC terraform
 
 - **KPIs/**: Contém documentação e ficheiros relacionados com os Indicadores Chave de Desempenho (KPIs) e Indicadores Chave de Processo (PKIs) para DevSecOps.
 - **Material_de_Treino/**: Materiais de formação e apresentações sobre desenvolvimento seguro e melhores práticas de DevSecOps.
+- **Normas_e_Standards/**: Documento que mapeia as normas e standards relevantes para CI/CD, incluindo requisitos de conformidade.
 - **poc_devsecops/**: Prova de Conceito (PoC) para implementação de DevSecOps, incluindo uma aplicação Django, configuração Docker, e GitHub workflow.
 - **terraform/**: Scripts e configuração de Infraestrutura como Código (IaC) para provisionamento de ambientes usando Terraform.
 
